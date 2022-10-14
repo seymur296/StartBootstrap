@@ -1,0 +1,442 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.copy {
+    background-image: url(./img/bg-masthead.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.left-right {
+    width: 80%;
+    height: 70px;
+    margin: auto;
+}
+
+.left {
+    float: left;
+}
+
+.left h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.left h2 a:hover {
+    color: rgba(255, 255, 255, 0.582);
+}
+
+.left h2 {
+    padding-top: 19px;
+
+}
+
+
+.right {
+
+    float: right;
+}
+
+.right ul {
+    display: flex;
+    padding-top: 25px;
+    
+}
+
+.right ul li {
+    padding-left: 20px;
+    list-style: none;
+   
+
+}
+
+
+.right ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.right ul li a:hover{
+    color: rgba(0, 0, 0, 0.774);
+}
+
+
+/* HEADER END  */
+
+section {
+    background-color: #675448c2;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+section h1 {
+    padding-top: 250px;
+    font-size: 58px;
+color: whitesmoke;}
+
+section p {
+    font-size: 21px;
+    font-weight: 500px;
+    color: white;
+    
+}
+
+.line {
+    margin: 20px auto;
+    width: 4%;
+    height: 4px;
+    background-color: #F4623A;
+    border-radius: 5px;
+}
+
+
+section button {
+    margin-top: 15px;
+    padding: 15px 30px;
+    background-color: #F4623A;
+    border-radius: 230px;
+    border: none;
+    transition: 0.2s ease-in;
+}
+
+section button a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+section button:hover {
+    cursor: pointer;
+    background-color:#ca4e2b ;
+}
+
+/* SECTION END */
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 480px;
+    background-color: #F4623A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main h1 {
+    color: white;
+}
+
+.line {
+    width: 4%;
+    height: 4px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+
+main p {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    margin: 15px 0;
+}
+
+main button {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 35px;
+    border: none;
+}
+
+main button:hover {
+    cursor: pointer;
+}
+
+main button a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+/* MAIN END */
+
+.boxes {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.box1 {
+    position: relative;
+    width: 33.3%;
+    height: 270px;
+}
+
+
+.box1 img{
+    width: 100%;
+    vertical-align: middle;
+    
+}
+
+.box2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 99, 71, 0.849);
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    display: flex ;
+    justify-content: center;
+    align-items: center;  
+}
+
+.box2 h1 {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.box2 h2 {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.box1:hover .box2 {
+    visibility: visible;
+    cursor: pointer;
+    
+}
+
+/* BOXES END */
+
+.service {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 450px;
+
+}
+
+.service .h1-line {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.service .h1-line h1 {
+font-weight: normal;
+}
+
+.service .h1-line .line {
+    width: 3.5%;
+    height: 4px;
+    background-color: tomato;
+    margin-top: 30px;
+}
+
+.icons {
+    width: 75%;
+    margin: 100px auto 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.icons .brilliant  h1 {
+    font-size: 24px;
+    margin: 10px 0;
+
+}
+
+
+.icons  i {
+    color: tomato;
+    font-size: 30px;
+}
+
+.icons p {
+    color: rgb(179, 179, 179);
+    font-weight: bold;
+}
+
+.notebook h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+
+.globus h1{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.heart h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* SERVICE END  */
+
+article {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 350px;
+    background-color: #212529;
+    text-align: center;
+}
+
+
+article h1 {
+    font-size: 2.1rem;
+  color: white;
+  padding-top: 130px;
+}
+
+article button {
+    border: none;
+    padding: 19px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+article button a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article button:hover{
+    cursor: pointer;
+}
+
+/* ARTICLE END */
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+
+footer .line {
+    width: 4%;
+    height: 4px;
+    background-color: #F4623A;
+    border-radius: 5px;
+}
+
+
+.touch {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.touch p {
+    font-size: 20px;
+    color: rgb(151, 151, 151);
+}
+
+
+.inputs {
+
+    width: 42.5%;
+    margin:20px auto 0;
+}
+
+.inputs input {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+width: 100%;
+padding: 20px 0;
+padding-left: 10px;
+margin-bottom: 25px;
+border: 1px solid rgb(209, 209, 209);
+border-radius: 5px;
+font-size: 17px;
+}
+
+
+.inputs input:focus{
+ outline: none;
+ box-shadow:0 0 7px #dc3545;
+}
+
+
+footer .button {
+    width: 42.5%;
+    text-align: center;
+    margin: auto;
+    height: 62px;
+}
+
+footer .button button {
+    width: 100%;
+   padding: 20px 0;
+   border-radius: 35px;
+   border: none;
+   background-color: #F89980;
+}
+
+
+footer .button button a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer .button button:hover {
+    background-color: #ff9379e1;
+    cursor: pointer;
+}
+
+footer .icon {
+    width: 25%;
+    margin: 25px auto; 
+     text-align: center;
+}
+
+footer .icon i {
+    color: black;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+footer .icon p {
+
+}
+
+
+/* FOOTER END */
+
+.leg {
+    height: 117px;
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
